@@ -1,0 +1,10 @@
+nl/themagrid/helper/exceptions/ApiException.class
+nl/themagrid/helper/config/ThemagridDatabaseConfig.class
+nl/themagrid/helper/auth/AuthProfile.class
+nl/themagrid/helper/interceptor/MinimumRoleInterceptor.class
+nl/themagrid/helper/interceptor/annotation/MinimumRole.class
+nl/themagrid/helper/exceptions/ApiExceptionHandler.class
+nl/themagrid/helper/auth/RoleEnum.class
+nl/themagrid/helper/exceptions/ApiException$Builder.class
+nl/themagrid/helper/config/ThemagridOidcConfiguration.class
+nl/themagrid/helper/util/MyObjectMapper.class
