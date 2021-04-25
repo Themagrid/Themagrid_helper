@@ -1,9 +1,16 @@
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/JHipsterInfo.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/ThemagridOidcConfiguration.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/ThemagridDatabaseConfig.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/auth/AuthProfile.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/interceptor/MinimumRoleInterceptor.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/util/MyObjectMapper.java
-/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/exceptions/ApiExceptionHandler.java
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/Constants.java
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/hibernate/JHipsterCompatiblePhysicalNamingStrategy.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/exceptions/ApiException.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/auth/RoleEnum.java
 /home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/interceptor/annotation/MinimumRole.java
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/JsonbConfiguration.java
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/JHipsterProperties.java
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/hibernate/JHipsterCompatibleImplicitNamingStrategy.java
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/exceptions/ApiExceptionHandler.java
+/home/rhettvankorlaar/JHipster/Themagrid_Helper/src/main/java/nl/themagrid/helper/config/LocalDateProvider.java
