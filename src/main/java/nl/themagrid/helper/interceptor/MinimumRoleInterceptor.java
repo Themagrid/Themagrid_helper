@@ -5,6 +5,7 @@ import nl.themagrid.helper.auth.AuthProfile;
 import nl.themagrid.helper.auth.RoleEnum;
 import nl.themagrid.helper.interceptor.annotation.MinimumRole;
 
+import javax.annotation.Priority;
 import javax.inject.Inject;
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.Interceptor;
@@ -12,6 +13,7 @@ import javax.interceptor.InvocationContext;
 
 @MinimumRole
 @Interceptor
+@Priority(0)
 public class MinimumRoleInterceptor {
 
     @Inject

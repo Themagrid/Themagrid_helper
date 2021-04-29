@@ -6,7 +6,7 @@
 
     <groupId>nl.themagrid</groupId>
     <artifactId>themagrid_helper</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,6 +19,7 @@
         <github.site-maven.version>0.11</github.site-maven.version>
         <github.global.server>github</github.global.server>
         <maven.deploy.version>2.8.2</maven.deploy.version>
+        <mapstruct.version>1.4.2.Final</mapstruct.version>
     </properties>
 
     <distributionManagement>
@@ -44,6 +45,15 @@
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-resteasy-jsonb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.18</version>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
             <artifactId>quarkus-oidc</artifactId>
         </dependency>
         <dependency>
@@ -51,12 +61,12 @@
             <artifactId>quarkus-security</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-resteasy-jsonb</artifactId>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-client-microprofile</artifactId>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-hibernate-orm</artifactId>
+            <artifactId>quarkus-hibernate-orm-panache</artifactId>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
@@ -96,6 +106,15 @@
                 <configuration>
                     <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo
                     </altDeploymentRepository>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
         </plugins>
